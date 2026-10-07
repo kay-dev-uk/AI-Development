@@ -45,7 +45,7 @@ def main() -> None:
     result = agent.invoke(
             {
             "messages": HumanMessage(
-                content="Tell me the weather in NYC briefly"
+                content="I'm in market for Washing Dryer in the UK. I'm looking for the best options available. I need a reliable machine, from a reliable brand with reputation, decent warranty and least amount of customer complaints. My budget is £600 (including discounts). I want you to find options online and provide them. Don't give more than 5 options. It needs to wash at least 8kgs and dry at least 5kgs. It needs to be efficient (But if it's not too reliable but super effieicent that is a bad option) and super reliable. It needs to be relatively new in terms of release date. Good to have a beltless motor but not necessary. Any little brands or non reliable brands - please ignore. I wash and dry quite regurarly so it's a key thing for me. You are free to provide cheaper options as long as they match the criteria. Obviously include AppliancesDirect, Currys and Argos in your search but not limit to it."
                 )
             }
         )
